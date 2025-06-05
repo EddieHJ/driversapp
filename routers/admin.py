@@ -34,5 +34,5 @@ async def delete_as_admin(car_id: int, driver: driver_dependency, db: db_depende
     db.delete(car_model)
     db.commit()
 
-    
+
 
